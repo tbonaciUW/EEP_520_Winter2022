@@ -110,7 +110,7 @@ git clone https://github.com/tbonaciUW/EEP_520_Winter2022
 Each week, we will add more code and README files. So you should do
 
 ```bash
-git pull origin master
+git pull origin main
 ```
 
 to get the latest code.
@@ -134,11 +134,11 @@ git init
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/yourusername/520-Assignments.git
-git push -u origin master
+git push -u origin main
 // edit and/or add some files
 git add .
 git commit -m "Changed some files"
-git push origin master
+git push origin main
 ```
 
 Go back to Github to see your changes. Your student account should give you the ability to make private repos (so other students will not see your code).
