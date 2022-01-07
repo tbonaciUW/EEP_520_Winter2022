@@ -392,16 +392,16 @@ Compiling Tests and Linking Libraries
 In the fractions directory is a simple Fraction api and some unit tests for it. These tests use [Google Test](https://github.com/google/googletest), a library that the `cppenv` Docker container already has installed in it. To build the executable for the fractions tests, do
 ```bash
 cd fractions
-g++ -c fraction.c -std=c++11
-g++ -c unit_tests.c -std=c++11
-g++ -c main.c -std=c++11
-g++ -o test *.o -lgtest -lpthread
+g++ -c fraction.c -std=c++17
+g++ -c unit_tests.c -std=c++17
+g++ -c main.c -std=c++17
+g++ -o test *.o fraction.h -lgtest -lpthread
 ```
 Note that although the Fraction api is written in C, the test library is written in C++, so we use the `g++` compiler and linker to build the code. Also, Google Test uses the C++11 standard, which is not the default for C++, so we have to tell g++ top use it. Finally, the linker needs to know to link the shared object library for Google Test, called `gtest`, and also the PThread library, called `pthread`, which Google Test users.
 
 To run the tests in `unit_tests.c`, simply do
 ```bash
-test
+./test
 ```
 
 How the Fractions code works
