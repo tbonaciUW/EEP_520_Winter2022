@@ -406,6 +406,8 @@ When you declare arrays as with the above, you know at compile time how big they
 
 ```c
 double * a = (double *) malloc(10*sizeof(double));
+int * b = (int *) malloc(15*sizeof(int));
+char * c = (char *) malloc(5*sizeof(char));
 ```
 
 or
