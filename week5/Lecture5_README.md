@@ -728,6 +728,11 @@ As long as `<` is defined for the the type `T`, then this template can be used. 
 
 ```c++
 int c = compare(1.0, 2.0)
+int c = compare(1, 5);
+
+
+DynamicArray a, b; //we need to instantiate and initialize this
+int c = compare(a, b);
 ```
 
 works.
