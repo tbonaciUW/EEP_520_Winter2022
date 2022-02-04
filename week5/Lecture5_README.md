@@ -68,6 +68,7 @@ x = 3;
 y == x; // true
 y = 4;
 x == y; // true
+```
 
 ## References are not pointers
 
