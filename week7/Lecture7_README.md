@@ -1152,4 +1152,4 @@ t: 160.079 ms    u: 15030.2 N    v: 2.30617 m/s
 
 Testing processes can be challenging, because they are not simply functions that return values, but dynamic entities. One way to proceed is to define test processes that you compose with the process you have defined to see if it does the right thing. For example, suppose you have a process that keeps track of the minimum and maximum values it has seen on a channel over time. To test such a process, you might build a test process that sends values to the channel and also knows what minimum and maximum values it has sent. Then you compose the two processes together and check that it works. Although this does not test all the behavior, it does test some of the expected behavior. And new tests can be defines as issues arise.
 
-For an example of this approach, see the [how_to_test](https://github.com/klavins/EEP520-W20/tree/master/week_6/how_to_test) directory of this week's notes.
+For an example of this approach, see the [how_to_test] directory of this week's notes.
