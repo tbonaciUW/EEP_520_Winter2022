@@ -208,15 +208,6 @@ TEST(Lambda, Argument) {
 }
 ```
 
-# Using Templates for Function Arguments
-
-template<typename FunctionType>
-...
-
-# More Info
-
-Further reading on lambda expressions can be found [here](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=vs-2017).
-
 # Associative Containers
 
 Associative containers are different from sequential containers in that they index the container with keys, kind of like a `struct`, dictionary, or database. The associative containers defined in the STL are 'map', 'set', 'multimap', and 'multiset'. We will focus here on 'map', which can be used to illustrate the main features.
