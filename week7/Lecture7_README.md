@@ -97,7 +97,7 @@ Further documentation on generic algorithms can be found [here](http://www.cplus
 
 # Lambda Expressions
 
-You can define functions as in two ways in C++. The first is the standard way, as in this example which squares its argument
+You can define functions in two ways in C++. The first is the standard way, as in this example which squares its argument
 
 ```c++
 double square(double x) {
