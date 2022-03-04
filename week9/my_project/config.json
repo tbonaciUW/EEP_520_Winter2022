@@ -7,49 +7,67 @@
     "agents": [ 
         {
             "definition": "defs/my_robot.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            }
+        } , 
+        {
+            "definition": "defs/my_robot.json",
             "style": { "fill": "lightblue", "stroke": "black" },
             "position": {
-                "x": 0, 
-                "y": 0, 
-                "theta": 0
+                "x": -100,
+                "y": 100,
+                "theta": 90
             }
         },
         {
             "definition": "defs/my_robot.json",
-            "style": { "fill": "lightorange", "stroke": "black" },
+            "style": { "fill": "yellow", "stroke": "black" },
             "position": {
-                "x": 0, 
-                "y": 110, 
-                "theta": 0
+                "x": 200,
+                "y": 150,
+                "theta": 270
             }
         },
         {
-            "definition": "defs/my_robot.json",
-            "style": { "fill": "lightpink", "stroke": "black" },
+            "definition": "defs/my_robot_with_gripper.json",
+            "style": { "fill": "lightred", "stroke": "black" },
             "position": {
-                "x": 110, 
-                "y": 0, 
-                "theta": 0
+                "x": 300,
+                "y": 50,
+                "theta": 60
+            }
+        },
+        {
+            "definition": "defs/my_robot_with_gripper.json",
+            "style": { "fill": "purple", "stroke": "black" },
+            "position": {
+                "x": -50,
+                "y": 50,
+                "theta": 245
             }
         },
         {
             "definition": "defs/block.json",
             "style": { "fill": "orange", "stroke": "black" },
             "position": {
-                "x": 90, 
-                "y": -50, 
-                "theta": 0
+              "x": 50,
+              "y": 0,
+              "theta": 0
             }
-        },
-        {
-            "definition": "defs/block.json",
-            "style": { "fill": "orange", "stroke": "black" },
+          },
+          {
+            "definition": "defs/triangle.json",
+            "style": { "fill": "blue", "stroke": "black" },
             "position": {
-                "x": 90, 
-                "y": 50, 
-                "theta": 0
+              "x": 100,
+              "y": 100,
+              "theta": 0
             }
-        }                         
+          }  
     ],
 
     "statics": [

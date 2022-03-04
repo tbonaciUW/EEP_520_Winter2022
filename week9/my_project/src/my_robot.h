@@ -13,7 +13,7 @@ class MyRobotController : public Process, public AgentInterface {
     void init() {}
     void start() {}
     void update() {
-        track_velocity(10,2);
+        track_velocity(10,0.15);
     }
     void stop() {}
 
