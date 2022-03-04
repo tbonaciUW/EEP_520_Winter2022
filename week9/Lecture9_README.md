@@ -1,6 +1,6 @@
 # Software Engineering For Embedded Applications
 
-## Week 9 (May 26th, 2021): Mobile Robot Control
+## Week 9 (March 3rd, 2022): Mobile Robot Control
 
 Last week we learned:
 
